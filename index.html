@@ -29,10 +29,10 @@
     </header>
 
     <main>
-        <div class="grid grid-cols-2 gap-4 my-12 mx-4 divide-x">
-           <div class="grid grid-cols-3 gap-2  mx-4"> 
+        <div class="grid grid-cols-2 gap-8 my-12 mx-auto divide-x">
+           <div class="grid grid-cols-3 w-full gap-4  mx-16 my-12"> 
             <!-- Player-1  -->
-            <div class="card card-compact bg-black-400 shadow-xl">
+            <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                 <figure class="">
                   <img src="images/messi.png" alt="messi" class="w-full h-50" />
                 </figure>
@@ -45,7 +45,7 @@
                 </div>
               </div>
             <!-- Player-2  -->
-            <div class="card card-compact bg-black-400 shadow-xl">
+            <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                 <figure class="">
                   <img src="images/messi.png" alt="messi" class="w-full h-50" />
                 </figure>
@@ -58,7 +58,46 @@
                 </div>
               </div>
             <!-- Player-3  -->
-            <div class="card card-compact bg-black-400 shadow-xl">
+            <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
+                <figure class="">
+                  <img src="images/messi.png" alt="messi" class="w-full h-50" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Lionel Messi</h2>
+                  <p></p>
+                  <div class="card-actions">
+                    <button class=" select-button bg-gray-600 hover:bg-green-600 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" >Select</button>
+                  </div>
+                </div>
+              </div>
+            <!-- Player-4  -->
+            <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
+                <figure class="">
+                  <img src="images/messi.png" alt="messi" class="w-full h-50" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Lionel Messi</h2>
+                  <p></p>
+                  <div class="card-actions">
+                    <button class=" select-button bg-gray-600 hover:bg-green-600 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" >Select</button>
+                  </div>
+                </div>
+              </div>
+            <!-- Player-5  -->
+            <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
+                <figure class="">
+                  <img src="images/messi.png" alt="messi" class="w-full h-50" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Lionel Messi</h2>
+                  <p></p>
+                  <div class="card-actions">
+                    <button class=" select-button bg-gray-600 hover:bg-green-600 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" >Select</button>
+                  </div>
+                </div>
+              </div>
+            <!-- Player-6  -->
+            <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                 <figure class="">
                   <img src="images/messi.png" alt="messi" class="w-full h-50" />
                 </figure>
@@ -73,10 +112,39 @@
            
            </div>
            <!-- second Part  -->
-           <div>
-            <h1>Selected List</h1>
-          </div>
+           <div class="w-6/12 mx-auto bg ">
+          
+        <div class="bg-blue-400 h-80 p-4 ml-8 mt-12 rounded" id="selected-list">
+            <h3 class="text-2xl font-semibold text-center mb-4">Top FIVE List</h3>
+            
         </div>
+        <div class="bg-black h-96 p-4 ml-8  mt-4 rounded text-gray-200" >
+            <h3 class="text-2xl font-semibold text-center mb-4">BUDGET</h3>
+            <div class="grid grid-cols-2 gap-4 my-2">
+                <p class="text-xl text-right">Per Player:</p>
+                <input type="number" name="" id="">
+            </div>
+            <div class="text-center my-4"><button class=" bg-yellow-400 hover:bg-green-600 py-2 px-8 text-white font-semibold text-xl rounded shadow-xl" >Calculate</button></div>
+            <p class="text-xl text-center">Players Expenses: $<span id="players-expenses">00</span></p>
+            <div class="grid grid-cols-2 gap-4 my-2">
+                <p class="text-xl text-right">Manager:</p>
+                <input type="number" name="" id="">
+            </div>
+            <div class="grid grid-cols-2 gap-4 my-2">
+                <p class="text-xl text-right">Coach:</p>
+                <input type="number" name="" id="">
+            </div>
+            <div class="text-center my-4"><button class=" bg-yellow-400  hover:bg-green-600 py-2 px-8 text-white font-semibold text-xl rounded shadow-xl" >Calculate Total</button></div>
+            <p class="text-xl text-center">Total: $<span id="players-expenses" >00</span></p>
+            
+        </div>
+               
+        </div>
+            
+           
+        </div>
+
+        
     </main>
 </body>
 </html>
