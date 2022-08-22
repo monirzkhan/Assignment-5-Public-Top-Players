@@ -1,0 +1,18 @@
+.s-icons{
+    font-size: 1.5rem;
+    padding: 10px;
+    animation: coloring 4s ease-in-out .5s infinite alternate;
+}
+
+
+@keyframes coloring {
+    0% {
+        color: maroon;
+        
+    }
+
+    25% {color: dodgerblue;}
+    50% {color: red;}
+    100% {color: skyblue;}
+
+}

@@ -7,13 +7,18 @@
     <title>Pick the top Five</title>
     <!-- Favicon Link  -->
     <link rel="shortcut icon" href="images/top-rated.png" type="image/x-icon">
+    <!-- Customs CSS Link  -->
+    <link rel="stylesheet" href="style.css">
     <!-- Tailwind and daisyUI link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Font Awesome Link  -->
+<script src="https://kit.fontawesome.com/a4e583ead6.js" crossorigin="anonymous"></script>
     
 
 </head>
-<body>
+<body class="bg-blue-100">
     
     <header class="bg-black" >    
         <div class="grid grid-cols-3 gap-2 pt-28">
@@ -30,10 +35,10 @@
     </header>
     <!-- Header End  -->
 
-    <main>
+    <main >
         <!-- Main Start  -->
         
-        <section>
+        <section >
             <!--Player Card Section Start -->
             <div class="grid grid-cols-2 gap-4 my-12 mx-auto divide-x ">
                 <div class="grid grid-cols-3 w-full gap-4  mx-16 my-12"> 
@@ -46,72 +51,72 @@
                        <h2 class="card-title player-name">Lionel Messi</h2>
                        <p>36 Goals . 120 Assist</p>
                        <div class="card-actions">
-                         <button class=" select-button bg-gray-600 hover:bg-green-600 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; " id="button-messi">Select</button>
+                         <button class=" btn btn-success hover:bg-yellow-400 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; " id="button-messi">Select</button>
                        </div>
                      </div>
                    </div>
                  <!-- Player-2  -->
                  <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                      <figure class="">
-                       <img src="images/messi.png" alt="messi" class="w-full h-50" />
+                       <img src="images/neimar.png" alt="neimar" class="w-full h-50" />
                      </figure>
                      <div class="card-body items-center text-center">
                        <h2 class="card-title player-name">Neymar Jr</h2>
                        <p>36 Goals . 120 Assist</p>
                        <div class="card-actions">
-                         <button class=" select-button btn btn-secodary hover:bg-green-600 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; ">Select</button>
+                         <button class=" btn btn-success hover:bg-yellow-400 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; ">Select</button>
                        </div>
                      </div>
                    </div>
                  <!-- Player-3  -->
                  <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                      <figure class="">
-                       <img src="images/messi.png" alt="messi" class="w-full h-50" />
+                       <img src="images/mbappe.png" alt="mbappe" class="w-full h-50" />
                      </figure>
                      <div class="card-body items-center text-center">
                        <h2 class="card-title player-name">Kylian Mbappé</h2>
                        <p>36 Goals . 120 Assist</p>
                        <div class="card-actions">
-                         <button class=" select-button bg-gray-600 hover:bg-green-600 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; ">Select</button>
+                         <button class=" btn btn-success hover:bg-yellow-400 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; ">Select</button>
                        </div>
                      </div>
                    </div>
                  <!-- Player-4  -->
                  <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                      <figure class="">
-                       <img src="images/messi.png" alt="messi" class="w-full h-50" />
+                       <img src="images/Vítor Machado.png" alt="Machado" class="w-full h-50" />
                      </figure>
                      <div class="card-body items-center text-center">
                        <h2 class="card-title player-name">Vítor Machado</h2>
                        <p>36 Goals . 120 Assist</p>
                        <div class="card-actions">
-                         <button class=" select-button bg-gray-600 hover:bg-green-600 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; ">Select</button>
+                         <button class=" btn btn-success hover:bg-yellow-400 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; ">Select</button>
                        </div>
                      </div>
                    </div>
                  <!-- Player-5  -->
                  <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                      <figure class="">
-                       <img src="images/messi.png" alt="messi" class="w-full h-50" />
+                       <img src="images/ramos.png" alt="ramos" class="w-full h-50" />
                      </figure>
                      <div class="card-body items-center text-center">
                        <h2 class="card-title player-name">Sergio Ramos</h2>
                        <p>36 Goals . 120 Assist</p>
                        <div class="card-actions">
-                         <button class=" select-button bg-gray-600 hover:bg-green-600 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; ">Select</button>
+                         <button class=" btn btn-success hover:bg-yellow-400 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; ">Select</button>
                        </div>
                      </div>
                    </div>
                  <!-- Player-6  -->
                  <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                      <figure class="">
-                       <img src="images/messi.png" alt="messi" class="w-full h-50" />
+                       <img src="images/Renato Sanches.png" alt="Renato" class="w-full h-50" />
                      </figure>
                      <div class="card-body items-center text-center">
                        <h2 class="card-title player-name"> Renato Sanche</h2>
                        <p>36 Goals . 120 Assist</p>
                        <div class="card-actions">
-                         <button class=" select-button bg-gray-600 hover:bg-green-600 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; " >Select</button>
+                         <button class=" btn btn-success hover:bg-yellow-400 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; " >Select</button>
                        </div>
                      </div>
                    </div>
@@ -121,7 +126,7 @@
                 <div class="w-6/12 mx-auto ">
                
              <div class="bg-gray-200 p-2 ml-8  rounded" id="selected-list">
-                 <h3 class="text-2xl font-semibold text-center mb-4 border-4 border-indigo-200 border-x-indigo-500">Select Players <span id="player-numbers">0</span></h3>
+                 <h3 class="text-2xl font-semibold text-center mb-4 border-4 border-indigo-200 border-x-indigo-500">Selected TOP Players</h3>
                  <div class="overflow-x-auto">
                     <table class="table table-zebra w-full">
                       <!-- head -->
@@ -154,7 +159,7 @@
                      <input type="number" name="" class="text-black font-semibold text-xl " id="coach-input-field">
                  </div>
                  <div class="text-center my-4"><button class=" bg-yellow-400  hover:bg-green-600 py-2 px-8 text-white font-semibold text-xl rounded shadow-xl" id="total-calculate-button">Calculate Total</button></div>
-                 <p class="text-2xl font-bold text-center ">Total: $<span id="expenses-total" >00</span></p>
+                 <p class="text-2xl font-bold text-center ">Total: $<span id="expenses-total" class="text-yellow-400">00</span></p>
                  
              </div>
                     
@@ -168,10 +173,39 @@
         
     </main>
     <!-- Main End  -->
+     <!-- Footer Section Start  -->
+     <footer
+     class="container-fluid text-light  mt-5 bg-black d-flex align-items-center justify-content-center flex-column"
+     style="height: 60vh;">
+
+     <div class="text-center">
+         <a class="" href="#"> <img src="images/top-rated.png" alt="" class="" width="48"
+                 height="24"> <span class="text-primary text-xl">Pick your</span> <span
+                 class=" text-2xl font-bold text-warning pt-4">TOP FIVE</span></a>
+     </div>
+
+     <div class="mb-5 pb-5 text-center text-white">
+         <small>Holding 31, 10B-Sector 11, Utttara-North</small> <br>
+         <small>Dhaka-Bangladesh</small> <br>
+         <small>Privacy Policy | Terms of use</small>
+     </div>
+     <div class="social-icons text-center">
+         <a href="https://www.instagram.com/?hl=en" target="_blank"><i
+                 class="fa-brands fa-instagram s-icons"></i></a>
+         <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square s-icons"></i></a>
+         <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube s-icons"></i></a>
+         <a href="https://twitter.com/monirzkhan526" target="_blank"><i class="fa-brands fa-twitter s-icons"></i></a>
+     </div>
+     <div class="text-center text-gray-400">
+         <small>©2023. Pick Your TOP FIVE. All rights reserved. </small>
+     </div>
+ </footer>
+ <!-- Footer Section End  -->
     <!-- JavaScript Link 
     ---------------------- -->
-    <script src="javascript/common.js"></script>
+   
     <script src="javascript/selectplayers.js"></script>
-    <script src="javascript/calculator.js"></script>
+    
 </body>
+
 </html>
