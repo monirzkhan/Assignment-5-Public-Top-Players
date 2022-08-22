@@ -20,11 +20,13 @@
 </head>
 <body class="bg-blue-100">
     
-    <header class="bg-black" >    
+    <header class="bg-slate-700" >    
         <div class="grid grid-cols-3 gap-2 pt-28">
-            <div class=""><img src="images/mbappe-cover.png" alt=""></div>
+            <div class=""><img src="images/navas.png" alt=""></div>
             <div class="">
-                <h1 class="text-3xl font-semibold pt-8 mb-8 text-gray-100">Pick your <span class="text-5xl font-bold text-yellow-400">TOP FIVE</span> Players</h1>
+                
+                <h1 class="text-3xl font-semibold pt-8 mb-8 text-gray-100"><span><img src="images/top-rated.png" alt="" class="" width="48"
+                    height="24"></span>Pick your <span class="text-5xl font-bold text-yellow-400">TOP FIVE</span> Players</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci deleniti incidunt corporis porro vitae nulla.</p>
             </div>
             <div class="w-2/4 text-center ml-12">
@@ -41,14 +43,14 @@
         <section >
             <!--Player Card Section Start -->
             <div class="grid grid-cols-2 gap-4 my-12 mx-auto divide-x ">
-                <div class="grid grid-cols-3 w-full gap-4  mx-16 my-12"> 
+                <div class="grid grid-cols-3 w-full gap-4  mx-16 my-8"> 
                  <!-- Player-1  -->
                  <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                      <figure class="">
-                       <img src="images/messi.png" alt="messi" class="w-full h-50" />
+                       <img src="images/hero-messi.png" alt="messi" class="w-full h-50" />
                      </figure>
                      <div class="card-body items-center text-center">
-                       <h2 class="card-title player-name">Lionel Messi</h2>
+                       <h2 class="card-title player-name font-bold">Lionel Messi</h2>
                        <p>36 Goals . 120 Assist</p>
                        <div class="card-actions">
                          <button class=" btn btn-success hover:bg-yellow-400 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; " id="button-messi">Select</button>
@@ -58,10 +60,10 @@
                  <!-- Player-2  -->
                  <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                      <figure class="">
-                       <img src="images/neimar.png" alt="neimar" class="w-full h-50" />
+                       <img src="images/hero-mbappe.png" alt="Kylian Mbappé" class="w-full h-50" />
                      </figure>
                      <div class="card-body items-center text-center">
-                       <h2 class="card-title player-name">Neymar Jr</h2>
+                       <h2 class="card-title player-name font-bold">Kylian Mbappé</h2>
                        <p>36 Goals . 120 Assist</p>
                        <div class="card-actions">
                          <button class=" btn btn-success hover:bg-yellow-400 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; ">Select</button>
@@ -71,10 +73,10 @@
                  <!-- Player-3  -->
                  <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                      <figure class="">
-                       <img src="images/mbappe.png" alt="mbappe" class="w-full h-50" />
+                       <img src="images/navas.png" alt="Keylor Navas " class="w-full h-50" />
                      </figure>
                      <div class="card-body items-center text-center">
-                       <h2 class="card-title player-name">Kylian Mbappé</h2>
+                       <h2 class="card-title player-name font-bold">Keylor Navas </h2>
                        <p>36 Goals . 120 Assist</p>
                        <div class="card-actions">
                          <button class=" btn btn-success hover:bg-yellow-400 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; ">Select</button>
@@ -84,10 +86,10 @@
                  <!-- Player-4  -->
                  <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                      <figure class="">
-                       <img src="images/Vítor Machado.png" alt="Machado" class="w-full h-50" />
+                       <img src="images/hero-marquinhos.png" alt="Marquinhos" class="w-full h-50" />
                      </figure>
                      <div class="card-body items-center text-center">
-                       <h2 class="card-title player-name">Vítor Machado</h2>
+                       <h2 class="card-title player-name font-bold">Marquinhos</h2>
                        <p>36 Goals . 120 Assist</p>
                        <div class="card-actions">
                          <button class=" btn btn-success hover:bg-yellow-400 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; ">Select</button>
@@ -97,10 +99,10 @@
                  <!-- Player-5  -->
                  <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                      <figure class="">
-                       <img src="images/ramos.png" alt="ramos" class="w-full h-50" />
+                       <img src="images/hero-ramos.png" alt="ramos" class="w-full h-50" />
                      </figure>
                      <div class="card-body items-center text-center">
-                       <h2 class="card-title player-name">Sergio Ramos</h2>
+                       <h2 class="card-title player-name font-bold">Sergio Ramos</h2>
                        <p>36 Goals . 120 Assist</p>
                        <div class="card-actions">
                          <button class=" btn btn-success hover:bg-yellow-400 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; ">Select</button>
@@ -110,10 +112,10 @@
                  <!-- Player-6  -->
                  <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
                      <figure class="">
-                       <img src="images/Renato Sanches.png" alt="Renato" class="w-full h-50" />
+                       <img src="images/profile-sanches.png" alt="Renato" class="w-full h-50" />
                      </figure>
                      <div class="card-body items-center text-center">
-                       <h2 class="card-title player-name"> Renato Sanche</h2>
+                       <h2 class="card-title player-name font-bold"> Renato Sanche</h2>
                        <p>36 Goals . 120 Assist</p>
                        <div class="card-actions">
                          <button class=" btn btn-success hover:bg-yellow-400 py-2 px-12 text-white font-bold text-2xl rounded shadow-xl" onclick="addPlayer(this); this.disabled = true; " >Select</button>
@@ -125,11 +127,11 @@
                 <!-- second Part  -->
                 <div class="w-6/12 mx-auto ">
                
-             <div class="bg-gray-200 p-2 ml-8  rounded" id="selected-list">
+             <div class="bg-yellow-200 p-2 ml-8  rounded" id="selected-list">
                  <h3 class="text-2xl font-semibold text-center mb-4 border-4 border-indigo-200 border-x-indigo-500">Selected TOP Players</h3>
                  <div class="overflow-x-auto">
                     <table class="table table-zebra w-full">
-                      <!-- head -->
+                      
                       <thead>
                         <tr>
                           <th> SL No.</th>
@@ -142,7 +144,7 @@
                     </div>
                  
              </div>
-             <div class="bg-black p-4 ml-8  mt-8 rounded text-gray-200" >
+             <div class="bg-slate-600 p-4 ml-8  mt-8 rounded text-gray-200" >
                  <h3 class="text-2xl font-semibold text-center mb-4 border-4 border-indigo-200 border-x-indigo-500">BUDGET</h3>
                  <div class="grid grid-cols-2 gap-4 my-2">
                      <p class="text-xl text-right">Per Player:</p>
@@ -175,12 +177,11 @@
     <!-- Main End  -->
      <!-- Footer Section Start  -->
      <footer
-     class="container-fluid text-light  mt-5 bg-black d-flex align-items-center justify-content-center flex-column"
+     class="container-fluid text-light  mt-5 bg-slate-700 d-flex align-items-center justify-content-center flex-column"
      style="height: 60vh;">
 
-     <div class="text-center">
-         <a class="" href="#"> <img src="images/top-rated.png" alt="" class="" width="48"
-                 height="24"> <span class="text-primary text-xl">Pick your</span> <span
+     <div class="text-center pt-12">
+         <a class="" href="#">  <span class="text-primary text-xl">Pick your</span> <span
                  class=" text-2xl font-bold text-warning pt-4">TOP FIVE</span></a>
      </div>
 
