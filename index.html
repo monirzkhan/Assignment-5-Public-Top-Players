@@ -137,24 +137,24 @@
                     </div>
                  
              </div>
-             <div class="bg-black h-96 p-4 ml-8  mt-4 rounded text-gray-200" >
+             <div class="bg-black  p-4 ml-8  mt-4 rounded text-gray-200" >
                  <h3 class="text-2xl font-semibold text-center mb-4 border-4 border-indigo-200 border-x-indigo-500">BUDGET</h3>
                  <div class="grid grid-cols-2 gap-4 my-2">
                      <p class="text-xl text-right">Per Player:</p>
-                     <input type="number" name="" id="player-expense-field">
+                     <input type="number" name="" class="text-black font-semibold text-xl " id="player-expense-field">
                  </div>
                  <div class="text-center my-4"><button class=" bg-yellow-400 hover:bg-green-600 py-2 px-8 text-white font-semibold text-xl rounded shadow-xl" id="calculate-button" >Calculate</button></div>
                  <p class="text-xl text-center">Players Expenses: $<span id="players-expenses">00</span></p>
                  <div class="grid grid-cols-2 gap-4 my-2">
                      <p class="text-xl text-right">Manager:</p>
-                     <input type="number" name="" id="">
+                     <input type="number" name="" class="text-black font-semibold text-xl " id="manager-input-field">
                  </div>
                  <div class="grid grid-cols-2 gap-4 my-2">
                      <p class="text-xl text-right">Coach:</p>
-                     <input type="number" name="" id="">
+                     <input type="number" name="" class="text-black font-semibold text-xl " id="coach-input-field">
                  </div>
-                 <div class="text-center my-4"><button class=" bg-yellow-400  hover:bg-green-600 py-2 px-8 text-white font-semibold text-xl rounded shadow-xl" >Calculate Total</button></div>
-                 <p class="text-xl text-center">Total: $<span id="players-expenses" >00</span></p>
+                 <div class="text-center my-4"><button class=" bg-yellow-400  hover:bg-green-600 py-2 px-8 text-white font-semibold text-xl rounded shadow-xl" id="total-calculate-button">Calculate Total</button></div>
+                 <p class="text-2xl font-bold text-center ">Total: $<span id="expenses-total" >00</span></p>
                  
              </div>
                     
@@ -170,6 +170,7 @@
     <!-- Main End  -->
     <!-- JavaScript Link 
     ---------------------- -->
+    <script src="javascript/common.js"></script>
     <script src="javascript/selectplayers.js"></script>
     <script src="javascript/calculator.js"></script>
 </body>
