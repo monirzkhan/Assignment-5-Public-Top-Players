@@ -1,4 +1,5 @@
 
+///Players Cart:
 const selectedList = [];
 
 function playersCart() {
@@ -31,7 +32,6 @@ function addPlayer(element) {
     if (selectedPlayersNumbers > 5) {
         
         alert('you can not select more than 5 players');
-        
         return;
     }
    
@@ -93,17 +93,12 @@ function addPlayer(element) {
             const totalBudgetString = totalBudget.innerText;
             const totalBudgetAmount = parseFloat(totalBudgetString);
         
-            // const expensePlayers = totalPlayersExpenses;
-        
             const totalBudgets = managerInputFieldAmount + coachInputFieldAmount;
             const finalBudget = totalPlayersExpenses + totalBudgets;
             totalBudget.innerText = finalBudget;
-            // return totalBudgets;
+        
         })
-    })
-    
-    
-    
+    }) 
 }
 
 
