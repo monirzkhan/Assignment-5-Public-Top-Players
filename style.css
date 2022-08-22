@@ -16,3 +16,18 @@
     100% {color: skyblue;}
 
 }
+#headings{
+    animation: headings 4s ease-in-out .5s infinite alternate;
+}
+
+@keyframes headings {
+    0% {
+        color: yellow;
+        
+    }
+
+    25% {color: orangered;}
+    50% {color: red;}
+    100% {color: white;}
+
+}

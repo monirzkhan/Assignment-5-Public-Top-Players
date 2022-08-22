@@ -18,19 +18,18 @@
     
 
 </head>
-<body class="bg-blue-100">
+<body class="bg-emerald-100">
     
-    <header class="bg-slate-700" >    
-        <div class="grid grid-cols-3 gap-2 pt-28">
-            <div class=""><img src="images/navas.png" alt=""></div>
+    <header class="bg-slate-700 shadow-xl" >    
+        <div class="grid md:grid-cols-3 sm:grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-3 grid-cols-1 gap-2 pt-28">
+            <div class="w-2/4 text-center ml-12"><img src="images/top-rated.png" alt=""></div>
             <div class="">
                 
-                <h1 class="text-3xl font-semibold pt-8 mb-8 text-gray-100"><span><img src="images/top-rated.png" alt="" class="" width="48"
-                    height="24"></span>Pick your <span class="text-5xl font-bold text-yellow-400">TOP FIVE</span> Players</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci deleniti incidunt corporis porro vitae nulla.</p>
+                <h1 class="md:text-3xl lg:text-3xl xl:text-3xl sm:text-3xl text-2xl font-semibold pt-8 mb-8 text-gray-100">Pick your <span class="md:text-5xl lg:text-5xl xl:text-5xl sm:text-5xl text-3xl font-bold text-yellow-400" id="headings">TOP FIVE</span> Players</h1>
+                <p class="text-white">Who is the best football player in the world? The answer will never be agreed upon, it will never be fully settled, it will never be definitively decided.                </p>
             </div>
-            <div class="w-2/4 text-center ml-12">
-                <img src="images/Card-psg.png" alt="">
+            <div class="">
+                <img src="images/navas.png" alt="">
             </div>
             
         </div>
@@ -42,10 +41,10 @@
         
         <section >
             <!--Player Card Section Start -->
-            <div class="grid grid-cols-2 gap-4 my-12 mx-auto divide-x ">
-                <div class="grid grid-cols-3 w-full gap-4  mx-16 my-8"> 
+            <div class="grid grid md:grid-cols-2 sm:grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-2 grid-cols-1 gap-4 my-12 mx-auto divide-x ">
+                <div class="grid grid md:grid-cols-2 sm:grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-3 grid-cols-1 w-full gap-4  mx-16 my-8"> 
                  <!-- Player-1  -->
-                 <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
+                 <div class="card card-compact  shadow-2xl my-4 p-2 ">
                      <figure class="">
                        <img src="images/hero-messi.png" alt="messi" class="w-full h-50" />
                      </figure>
@@ -58,7 +57,7 @@
                      </div>
                    </div>
                  <!-- Player-2  -->
-                 <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
+                 <div class="card card-compact bg-black-400 shadow-2xl my-4 p-2 ">
                      <figure class="">
                        <img src="images/hero-mbappe.png" alt="Kylian Mbappé" class="w-full h-50" />
                      </figure>
@@ -71,7 +70,7 @@
                      </div>
                    </div>
                  <!-- Player-3  -->
-                 <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
+                 <div class="card card-compact bg-black-400 shadow-2xl my-4 p-2 ">
                      <figure class="">
                        <img src="images/navas.png" alt="Keylor Navas " class="w-full h-50" />
                      </figure>
@@ -84,7 +83,7 @@
                      </div>
                    </div>
                  <!-- Player-4  -->
-                 <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
+                 <div class="card card-compact bg-black-400 shadow-2xl my-4 p-2 ">
                      <figure class="">
                        <img src="images/hero-marquinhos.png" alt="Marquinhos" class="w-full h-50" />
                      </figure>
@@ -97,7 +96,7 @@
                      </div>
                    </div>
                  <!-- Player-5  -->
-                 <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
+                 <div class="card card-compact bg-black-400 shadow-2xl my-4 p-2 ">
                      <figure class="">
                        <img src="images/hero-ramos.png" alt="ramos" class="w-full h-50" />
                      </figure>
@@ -110,7 +109,7 @@
                      </div>
                    </div>
                  <!-- Player-6  -->
-                 <div class="card card-compact bg-black-400 shadow-2xl my-4 ">
+                 <div class="card card-compact bg-black-400 shadow-2xl my-4 p-2 ">
                      <figure class="">
                        <img src="images/profile-sanches.png" alt="Renato" class="w-full h-50" />
                      </figure>
@@ -150,7 +149,7 @@
                      <p class="text-xl text-right">Per Player:</p>
                      <input type="number" name="" class="text-black font-semibold text-xl " id="player-expense-field">
                  </div>
-                 <div class="text-center my-4"><button class=" bg-yellow-400 hover:bg-green-600 py-2 px-8 text-white font-semibold text-xl rounded shadow-xl" id="calculate-button" >Calculate</button></div>
+                 <div class="text-center my-4"><button class=" btn btn-warning  hover:bg-green-600 py-2 md:px-8 text-white font-semibold md:text-xl  rounded shadow-xl" id="calculate-button" >Calculate</button></div>
                  <p class="text-xl text-center">Players Expenses: $<span id="players-expenses">00</span></p>
                  <div class="grid grid-cols-2 gap-4 my-2">
                      <p class="text-xl text-right">Manager:</p>
@@ -160,8 +159,8 @@
                      <p class="text-xl text-right">Coach:</p>
                      <input type="number" name="" class="text-black font-semibold text-xl " id="coach-input-field">
                  </div>
-                 <div class="text-center my-4"><button class=" bg-yellow-400  hover:bg-green-600 py-2 px-8 text-white font-semibold text-xl rounded shadow-xl" id="total-calculate-button">Calculate Total</button></div>
-                 <p class="text-2xl font-bold text-center ">Total: $<span id="expenses-total" class="text-yellow-400">00</span></p>
+                 <div class="text-center my-4"><button class="btn btn-warning  hover:bg-green-600 md:py-2 md:px-8 text-white font-semibold md:text-xl  rounded shadow-xl" id="total-calculate-button">Calculate Total</button></div>
+                 <p class="text-2xl font-bold text-center ">Total: $<span id="expenses-total" class="text-yellow-400 ">00</span></p>
                  
              </div>
                     
@@ -181,8 +180,8 @@
      style="height: 60vh;">
 
      <div class="text-center pt-12">
-         <a class="" href="#">  <span class="text-primary text-xl">Pick your</span> <span
-                 class=" text-2xl font-bold text-warning pt-4">TOP FIVE</span></a>
+         <a class="" href="#">  <span class="text-white text-xl">Pick your</span> <span
+                 class=" text-3xl font-bold text-warning pt-4">TOP FIVE</span><span class="text-white text-xl"> Players</span></a>
      </div>
 
      <div class="mb-5 pb-5 text-center text-white">
